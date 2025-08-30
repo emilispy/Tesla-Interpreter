@@ -1,11 +1,11 @@
 var storage = require("storage");
 var subghz = require("subghz");
 
-var dbStore = {fs: "littlefs", path: "/Tesla"};
+var TelsaSubs = {fs: "littlefs", path: "/Tesla"};
 var shouldExit = false;
 
 try {
-    storage.readdir(dbStore.path);
+    storage.readdir(TelsaSubs.path);
 } catch(e) {
     fillScreen(color(0,0,0));
     setTextColor(color(255,0,0));
@@ -17,7 +17,7 @@ try {
 }
 
 function listSubFiles() {
-    var files = storage.readdir(dbStore.path);
+    var files = storage.readdir(TelsaSubs.path);
     var subs = [];
     for (var i = 0; i < files.length; i++) {
         if (files[i].indexOf(".sub") > -1) subs.push(files[i]);
@@ -47,7 +47,7 @@ function sendSignals(subs) {
         setTextColor(color(0,150,255));
         setTextSize(2);
         drawString("Sending.. (" + (i+1) + "/" + subs.length + ")", 40, 70);
-        subghz.transmitFile(dbStore.path + "/" + subs[i]);
+        subghz.transmitFile(TelsaSubs.path + "/" + subs[i]);
         delay(200);
     }
 }
