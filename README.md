@@ -9,6 +9,7 @@ Made for T-Embed CC1101 & Plus Version (not sure if it will work for other devic
 4. Done!
    
 SD Card: TeslaSD.js
+
 LittleFS: TeslaFS.js
 
 🕹️ Usage:
