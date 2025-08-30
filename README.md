@@ -11,11 +11,11 @@ SD Card: TeslaSD.js
 LittleFS: TeslaFS.js
 
 🕹️ Usage:
-Hold ESC (Power Button) to exit.
-After it says "Sent 1/1" press confirmation button on your encoder to send the next signal.
-You can also hold it to auto send and speed up the process.
+1. Hold ESC (Power Button) to exit.
+2. After it says "Sent 1/1" press confirmation button on your encoder to send the next signal.
+   You can also hold it to auto send and speed up the process.
 
 ⁉️ Still confused?
-Offical Tutorial: SOON
-WebUI: https://www.youtube.com/watch?v=SIYZ7XNIM9o
-JS Interpreter: https://www.youtube.com/watch?v=S2QV5QsBv0E
+1. Offical Tutorial: SOON
+2. WebUI: https://www.youtube.com/watch?v=SIYZ7XNIM9o
+3. JS Interpreter: https://www.youtube.com/watch?v=S2QV5QsBv0E
