@@ -7,6 +7,7 @@ Made for T-Embed CC1101 & Plus Version (not sure if it will work for other devic
 2. Download Tesla.js and put it on your littlefs. (WebUI)
 3. On your T-Embed CC1101 go to "JS Interpreter" then "Load..." and then run the Tesla.js
 4. Done!
+   
 SD Card: TeslaSD.js
 LittleFS: TeslaFS.js
 
